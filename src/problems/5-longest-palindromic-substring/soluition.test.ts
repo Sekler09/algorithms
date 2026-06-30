@@ -75,7 +75,7 @@ describe("5. Longest Palindromic Substring", () => {
 
     it("should handle a very long string with a palindrome in the middle", () => {
       const result = longestPalindrome("xyzabacbazxyz");
-      expect(result).toBe("zabacbaz");
+      expect(result).toBe("aba");
     });
   });
 });
