@@ -1,0 +1,19 @@
+{
+  "two-sum": "Easy",
+  "add-two-numbers": "Medium",
+  "longest-substring-without-repeating-characters": "Medium",
+  "median-of-two-sorted-arrays": "Hard",
+  "longest-palindromic-substring": "Medium",
+  "zigzag-conversion": "Medium",
+  "reverse-integer": "Medium",
+  "string-to-integer-atoi": "Medium",
+  "palindrome-number": "Easy",
+  "max-points-on-a-line": "Hard",
+  "longest-turbulent-subarray": "Medium",
+  "max-value-of-equation": "Hard",
+  "smallest-string-with-a-given-numeric-value": "Medium",
+  "replace-elements-in-an-array": "Medium",
+  "best-poker-hand": "Easy",
+  "minimum-amount-of-time-to-collect-garbage": "Medium",
+  "sum-multiples": "Easy"
+}

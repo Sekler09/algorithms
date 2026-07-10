@@ -6,7 +6,9 @@
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run",
-    "solve": "tsx src/problems"
+    "solve": "tsx src/problems",
+    "readme": "tsx scripts/generate-readme.ts",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^26.0.0",
+    "husky": "^9.1.7",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "vite-tsconfig-paths": "^6.1.1",
