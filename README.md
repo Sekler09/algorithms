@@ -4,13 +4,13 @@ TypeScript solutions to LeetCode problems, each with Vitest coverage.
 
 ## Progress
 
-**18** problems solved
+**19** problems solved
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#1cbaba", "pie2": "#ffb700", "pie3": "#f63737"}}}%%
 pie showData
     title Solved by difficulty
-    "Easy" : 4
+    "Easy" : 5
     "Medium" : 10
     "Hard" : 4
 ```
@@ -36,6 +36,7 @@ pie showData
 | 2295 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2295-replace-elements-in-an-array/solution.ts) |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2347-best-poker-hand/solution.ts) |
 | 2391 | [Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2391-minimum-amount-of-time-to-collect-garbage/solution.ts) |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2574-left-and-right-sum-differences/solution.ts) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2652-sum-multiples/solution.ts) |
 
 ---
