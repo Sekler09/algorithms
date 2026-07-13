@@ -4,14 +4,14 @@ TypeScript solutions to LeetCode problems, each with Vitest coverage.
 
 ## Progress
 
-**20** problems solved
+**21** problems solved
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#1cbaba", "pie2": "#ffb700", "pie3": "#f63737"}}}%%
 pie showData
     title Solved by difficulty
     "Easy" : 5
-    "Medium" : 11
+    "Medium" : 12
     "Hard" : 4
 ```
 
@@ -30,6 +30,7 @@ pie showData
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/9-palindrome-number/solution.ts) |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | ![Hard](https://img.shields.io/badge/-Hard-f63737) | [solution](./src/problems/149-max-points-on-a-line/solution.ts) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/609-find-duplicate-file-in-system/solution.ts) |
+| 861 | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/861-score-after-flipping-matrix/solution.ts) |
 | 978 | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/978-longest-turbulent-subarray/solution.ts) |
 | 1499 | [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/) | ![Hard](https://img.shields.io/badge/-Hard-f63737) | [solution](./src/problems/1499-max-value-of-equation/solution.ts) |
 | 1663 | [Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/1663-smallest-string-with-a-given-numeric-value/solution.ts) |
