@@ -15,6 +15,7 @@
   "reverse-integer": "Medium",
   "score-after-flipping-matrix": "Medium",
   "smallest-string-with-a-given-numeric-value": "Medium",
+  "sort-integers-by-the-number-of-1-bits": "Easy",
   "string-to-integer-atoi": "Medium",
   "sum-multiples": "Easy",
   "sum-of-floored-pairs": "Hard",
