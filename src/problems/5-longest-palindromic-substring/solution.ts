@@ -6,29 +6,35 @@
 
 // @lc code=start
 export function longestPalindrome(s: string): string {
-  let longest = "";
-  for (let i = 0; i < s.length; i++) {
-    const even = extension(s, i, i + 1);
-    const odd = extension(s, i, i);
+  let center = -1;
+  let right = -1;
+  let maxIndex = 1;
+  let maxLength = 0;
 
-    if (even.length > longest.length) longest = even;
-    if (odd.length > longest.length) longest = odd;
+  let extendedS = "#" + s.split("").join("#") + "#";
+  const hLen = new Array(extendedS.length).fill(0);
+  for (let i = 1; i < extendedS.length; i++) {
+    if (center > 0 && i < right)
+      hLen[i] = Math.min(hLen[center * 2 - i], right - i);
+    while (
+      extendedS[i - 1 - hLen[i]] === extendedS[i + 1 + hLen[i]] &&
+      extendedS[i + 1 + hLen[i]]
+    ) {
+      center = i;
+      right = i + 1 + hLen[i];
+      hLen[i]++;
+    }
   }
 
-  return longest;
-}
-
-function extension(s: string, left: number, right: number): string {
-  while (
-    left >= 0 &&
-    right < s.length &&
-    left <= right &&
-    s[left] === s[right]
-  ) {
-    left--;
-    right++;
+  for (let i = 0; i < hLen.length; i++) {
+    if (hLen[i] * 2 + 1 > maxLength) {
+      maxLength = hLen[i] * 2 + 1;
+      maxIndex = i;
+    }
   }
 
-  return s.substring(left + 1, right);
+  return extendedS
+    .substring(maxIndex - hLen[maxIndex], maxIndex + hLen[maxIndex] + 1)
+    .replaceAll("#", "");
 }
 // @lc code=end
