@@ -6,14 +6,11 @@
 
 // @lc code=start
 export function gcdSum(nums: number[]): number {
-  const mx = nums.reduce((acc, el, i) => {
-    acc.push(Math.max(el, acc[i - 1] ?? 0));
-    return acc;
-  }, [] as number[]);
-
+  let mx = 0;
   const prefixGcd = nums
-    .reduce((acc, el, i) => {
-      acc.push(gcd(el, mx[i]));
+    .reduce((acc, el) => {
+      mx = Math.max(mx, el);
+      acc.push(gcd(el, mx));
       return acc;
     }, [] as number[])
     .sort((a, b) => a - b);
