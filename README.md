@@ -4,14 +4,14 @@ TypeScript solutions to LeetCode problems, each with Vitest coverage.
 
 ## Progress
 
-**30** problems solved
+**34** problems solved
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#1cbaba", "pie2": "#ffb700", "pie3": "#f63737"}}}%%
 pie showData
     title Solved by difficulty
-    "Easy" : 7
-    "Medium" : 18
+    "Easy" : 8
+    "Medium" : 21
     "Hard" : 5
 ```
 
@@ -30,6 +30,7 @@ pie showData
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/9-palindrome-number/solution.ts) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/55-jump-game/solution.ts) |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | ![Hard](https://img.shields.io/badge/-Hard-f63737) | [solution](./src/problems/149-max-points-on-a-line/solution.ts) |
+| 368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/368-largest-divisible-subset/solution.ts) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/609-find-duplicate-file-in-system/solution.ts) |
 | 861 | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/861-score-after-flipping-matrix/solution.ts) |
 | 978 | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/978-longest-turbulent-subarray/solution.ts) |
@@ -42,14 +43,17 @@ pie showData
 | 1960 | [Maximum Product of the Length of Two Palindromic Substrings](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/) | ![Hard](https://img.shields.io/badge/-Hard-f63737) | [solution](./src/problems/1960-maximum-product-of-the-length-of-two-palindromic-substrings/solution.ts) |
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2144-minimum-cost-of-buying-candies-with-discount/solution.ts) |
 | 2187 | [Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2187-minimum-time-to-complete-trips/solution.ts) |
+| 2222 | [Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2222-number-of-ways-to-select-buildings/solution.ts) |
 | 2295 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2295-replace-elements-in-an-array/solution.ts) |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2347-best-poker-hand/solution.ts) |
 | 2391 | [Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2391-minimum-amount-of-time-to-collect-garbage/solution.ts) |
-| 2492 | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2492-minimum-score-of-a-path-between-two-cities/solution.ts) |
+| 2492 | [Minimum Score Of A Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2492-minimum-score-of-a-path-between-two-cities/solution.ts) |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2574-left-and-right-sum-differences/solution.ts) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2652-sum-multiples/solution.ts) |
+| 3852 | [Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/3852-smallest-pair-with-different-frequencies/solution.ts) |
 | 3867 | [Sum of GCD of Formed Pairs](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/3867-sum-of-gcd-of-formed-pairs/solution.ts) |
+| 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/3926-count-valid-word-occurrences/solution.ts) |
 
 ---
 
-<sub>Generated by `npm run readme` · 2026-08-01</sub>
+<sub>Generated by `npm run readme` · 2026-08-31</sub>
