@@ -22,6 +22,7 @@
   "minimum-time-to-complete-trips": "Medium",
   "number-of-ways-to-select-buildings": "Medium",
   "palindrome-number": "Easy",
+  "product-of-array-except-self": "Medium",
   "replace-elements-in-an-array": "Medium",
   "reverse-integer": "Medium",
   "score-after-flipping-matrix": "Medium",
