@@ -4,14 +4,14 @@ TypeScript solutions to LeetCode problems, each with Vitest coverage.
 
 ## Progress
 
-**38** problems solved
+**39** problems solved
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#1cbaba", "pie2": "#ffb700", "pie3": "#f63737"}}}%%
 pie showData
     title Solved by difficulty
     "Easy" : 8
-    "Medium" : 25
+    "Medium" : 26
     "Hard" : 5
 ```
 
@@ -47,6 +47,7 @@ pie showData
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2144-minimum-cost-of-buying-candies-with-discount/solution.ts) |
 | 2187 | [Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2187-minimum-time-to-complete-trips/solution.ts) |
 | 2222 | [Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2222-number-of-ways-to-select-buildings/solution.ts) |
+| 2284 | [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2284-sender-with-largest-word-count/solution.ts) |
 | 2295 | [Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2295-replace-elements-in-an-array/solution.ts) |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/2347-best-poker-hand/solution.ts) |
 | 2391 | [Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/2391-minimum-amount-of-time-to-collect-garbage/solution.ts) |
