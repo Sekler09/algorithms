@@ -4,14 +4,14 @@ TypeScript solutions to LeetCode problems, each with Vitest coverage.
 
 ## Progress
 
-**44** problems solved
+**45** problems solved
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#1cbaba", "pie2": "#ffb700", "pie3": "#f63737"}}}%%
 pie showData
     title Solved by difficulty
     "Easy" : 9
-    "Medium" : 29
+    "Medium" : 30
     "Hard" : 6
 ```
 
@@ -35,6 +35,7 @@ pie showData
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/238-product-of-array-except-self/solution.ts) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/283-move-zeroes/solution.ts) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/300-longest-increasing-subsequence/solution.ts) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/347-top-k-frequent-elements/solution.ts) |
 | 368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/368-largest-divisible-subset/solution.ts) |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/445-add-two-numbers-ii/solution.ts) |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/609-find-duplicate-file-in-system/solution.ts) |

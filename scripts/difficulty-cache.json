@@ -40,6 +40,7 @@
   "sum-of-floored-pairs": "Hard",
   "sum-of-gcd-of-formed-pairs": "Medium",
   "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n": "Medium",
+  "top-k-frequent-elements": "Medium",
   "two-sum": "Easy",
   "zigzag-conversion": "Medium"
 }
