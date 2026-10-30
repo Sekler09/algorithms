@@ -4,13 +4,13 @@ TypeScript solutions to LeetCode problems, each with Vitest coverage.
 
 ## Progress
 
-**49** problems solved
+**50** problems solved
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#1cbaba", "pie2": "#ffb700", "pie3": "#f63737"}}}%%
 pie showData
     title Solved by difficulty
-    "Easy" : 11
+    "Easy" : 12
     "Medium" : 32
     "Hard" : 6
 ```
@@ -29,6 +29,7 @@ pie showData
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/8-string-to-integer-atoi/solution.ts) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/9-palindrome-number/solution.ts) |
 | 15 | [3Sum](https://leetcode.com/problems/3-sum/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/15-3-sum/solution.ts) |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/21-merge-two-sorted-lists/solution.ts) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | ![Medium](https://img.shields.io/badge/-Medium-ffb700) | [solution](./src/problems/55-jump-game/solution.ts) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ![Easy](https://img.shields.io/badge/-Easy-1cbaba) | [solution](./src/problems/121-best-time-to-buy-and-sell-stock/solution.ts) |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | ![Hard](https://img.shields.io/badge/-Hard-f63737) | [solution](./src/problems/149-max-points-on-a-line/solution.ts) |
